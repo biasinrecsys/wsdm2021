@@ -59,6 +59,7 @@
                 <li><a href="#structure">Outline</a></li>
                 <li><a href="#resources">Material</a></li>
                 <li><a href="#organizers">Presenters</a></li>
+                <li><a href="#attending">Registration</a></li>
                 <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#editions">Past Editions</a></li>
             </ul>
@@ -73,7 +74,7 @@
     <div class="intro-container wow fadeIn">
         <h1 class="mb-4 pb-0">Tutorial on<br/> Advances in Bias-aware Recommendation on the Web</h1>
         <p class="mb-4 pb-0">to be held as part of the <u><a href="http://www.wsdm-conference.org/2021/index.php" target="_blank">14th ACM International Conference on Web Search and Data Mining (WSDM2021)</a></u></p>
-        <p class="mb-4 pb-0">March 8, 2021 - ONLINE </p>
+        <p class="mb-4 pb-0">March 8, 2021 8:30-13, GMT+2 - ONLINE </p>
     </div>
 </section>
 
@@ -135,7 +136,7 @@
             <div class="section-header">
                 <h2>Outline</h2>
 
-                <p>Due to the ongoing worldwide COVID-19 situation, WSDM 2021 will take place online.</p>
+                <p>Due to the ongoing worldwide COVID-19 situation, the Bias tutorial will take place online on <strong>March 8, 2021, morning (8:30-13), UTC +02:00</strong>.</p>
 
                 <div style="margin: 10px auto 30px auto; width: 50%;">
                     <table class="table">
@@ -147,11 +148,11 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <th scope="row" class="time"><strong>5 mins</strong></th>
+                            <th scope="row" class="time"><strong>08:30 08:40</strong></th>
                             <td><strong>Welcome and Presenters' Introduction</strong></td>
                         </tr>
                         <tr>
-                            <th scope="row" class="time"><strong>55 mins</strong></th>
+                            <th scope="row" class="time"><strong>08:40 10:00</strong></th>
                             <td><strong>Session I: Foundations</strong></td>
                         </tr>
                         <tr>
@@ -161,6 +162,18 @@
                                 <ul>
                                     <li><strong>Recommendation principles</strong>. To introduce the problems associated to algorithmic bias, we will present the recommendation task as the  generation of the most effective personalized ranking for a user, as in modern recommender systems.</li>
                                     <li><strong>Multi-sided recommendation aspects</strong>. Recommender systems have an impact on multiple actors, namely consumers, providers, system's owners. We will present these actors and the phases of the recommendation process where they  have a role (design, algorithm, and evaluation).</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Hands on Recommender Systems</strong></div>
+                                <ul>
+                                    <li>Data preparation starting from public datasets (i.e., COCO and Movielens datasets).</li>
+                                    <li>Model definition (e.g., user/item embeddings, layers stacking) and  training (e.g., epochs, loss, optimizer)</li>
+                                    <li>User-item relevance matrix computation from a pre-trained model (e.g., model load, predictions).</li>
+                                    <li>Model evaluation oriented to utility (e.g., NDCG, beyond-accuracy metrics).</li>
                                 </ul>
                             </td>
                         </tr>
@@ -177,6 +190,14 @@
                             </td>
                         </tr>
                         <tr>
+                            <th scope="row" class="time"><strong>10:00 10:10</strong></th>
+                            <td><strong>Coffee Break</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>10:10 11:40</strong></th>
+                            <td><strong>Session II: Bias Mitigation</strong></td>
+                        </tr>
+                        <tr>
                             <th scope="row" class="time"></th>
                             <td>
                                 <div style="margin-bottom: 9px;"><strong>Bias through the Pipeline</strong></div>
@@ -189,52 +210,18 @@
                         <tr>
                             <th scope="row" class="time"></th>
                             <td>
-                                <div style="margin-bottom: 9px;"><strong>Discrimination</strong></div>
-                                <ul>
-                                    <li><strong>Types of discrimination</strong>. When bias affects users' sensitive attributes, it may lead to discrimination. We present concepts, such as direct/indirect discrimination, its granularity (group, individual, and subgroup discrimination), types of disparity (disparate treatment, impact, and mistreatment).</li>
-                                    <li><strong>Definitions of fairness</strong>. We will present definitions of fairness and different classes in which thy can be categorized (equalized odds, equalized opportunity, demographic parity, fairness through (un)awareness, equality of treatment).</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="time"></th>
-                            <td>
-                                <div style="margin-bottom: 9px;"><strong>Mitigation Design</strong></div>
+                                <div style="margin-bottom: 9px;"><strong>Bias Mitigation Design</strong></div>
                                 <ul>
                                     <li><strong>Bias-aware process pipeline</strong>. Intervention strategies to mitigate algorithmic bias require an analysis of where and how bias might affect the system. We present a pipeline to support mitigation design.</li>
                                     <li><strong>Techniques for bias treatment</strong>. We will present the three main classes of mitigation techniques (pre-, in-, and post-processing), along with examples of solutions proposed for recommender systems.</li>
-                                    <li><strong>Real-world applications</strong>. We will present examples of real-world platforms, such as LinkedIn and Spotify, and of their approaches to deal with bias.</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="time"><strong></strong></th>
-                            <td><strong>Questions and Discussion</strong></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="time"><strong>30 mins</strong></th>
-                            <td><strong>Coffee Break</strong></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="time"><strong>150 mins</strong></th>
-                            <td><strong>Session II: Hands-on Studies</strong></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="time"></th>
-                            <td>
-                                <div style="margin-bottom: 9px;"><strong>Recommender Systems in Practice</strong></div>
-                                <ul>
-                                    <li>Data preparation starting from public datasets (i.e., COCO and Movielens datasets).</li>
-                                    <li>Model definition (e.g., user/item embeddings, layers stacking) and  training (e.g., epochs, loss, optimizer)</li>
-                                    <li>User-item relevance matrix computation from a pre-trained model (e.g., model load, predictions).</li>
-                                    <li>Model evaluation oriented to utility (e.g., NDCG, beyond-accuracy metrics).</li>
+                                    <li><strong>Real-world applications</strong>. We will present examples of real-world platforms and of their approaches to deal with bias.</li>
                                 </ul>
                             </td>
                         </tr>
                         <tr>
                             <th scope="row" class="time"><strong></strong></th>
                             <td>
-                                <div style="margin-bottom: 9px;"><strong>Investigation on Item Popularity Bias</strong></div>
+                                <div style="margin-bottom: 9px;"><strong>Hands on Item Popularity Bias</strong></div>
                                 <ul>
                                     <li>Definition and characterization of item popularity biases in interactions and recommendations.</li>
                                     <li>Application of mitigation techniques based on pre-, in-, and post-processing.</li>
@@ -244,9 +231,39 @@
                             </td>
                         </tr>
                         <tr>
+                            <th scope="row" class="time"><strong>11:40 11:50</strong></th>
+                            <td><strong>Coffee Break</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>11:50 13:20</strong></th>
+                            <td><strong>Session III: Unfairness Mitigation</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Discrimination through the Pipeline</strong></div>
+                                <ul>
+                                    <li><strong>Types of discrimination</strong>. When bias affects users' sensitive attributes, it may lead to discrimination. We present concepts, such as direct/indirect discrimination, its granularity (group, individual, and subgroup discrimination), types of disparity (disparate treatment, impact, and mistreatment).</li>
+                                    <li><strong>Definitions of fairness</strong>. We will present definitions of fairness and different classes in which thy can be categorized (equalized odds, equalized opportunity, demographic parity, fairness through (un)awareness, equality of treatment).</li>
+                                    <li><strong>Recommendation pipeline</strong>. We will extend the discussion on the recommendation pipeline in terms of how bias can lead to unfairness during data acquisition and storage, data preparation, model training, model prediction, model evaluation, and recommendation delivery.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Unfairness Mitigation Design</strong></div>
+                                <ul>
+                                    <li><strong>Bias-aware process pipeline</strong>. Intervention strategies to mitigate algorithmic unfairness require an analysis of where and how bias might affect unfairness in a system. We present a pipeline to support mitigation design.</li>
+                                    <li><strong>Techniques for unfairness treatment</strong>. We will present the three main classes of mitigation techniques (pre-, in-, and post-processing), along with examples of solutions proposed for recommender systems.</li>
+                                    <li><strong>Real-world applications</strong>. We will present examples of real-world platforms and of their approaches to deal with unfairness.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
                             <th scope="row" class="time"><strong></strong></th>
                             <td>
-                                <div style="margin-bottom: 9px;"><strong>Investigation on Item Provider Fairness</strong></div>
+                                <div style="margin-bottom: 9px;"><strong>Hands on Item Provider Fairness</strong></div>
                                 <ul>
                                     <li>Association of items to providers and sensitive attributes.</li>
                                     <li>Characterization of providers representation in the catalog and in the interactions.</li>
@@ -259,24 +276,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="time"><strong></strong></th>
-                            <td>
-                                <div style="margin-bottom: 9px;"><strong>Investigation on Item Consumer Fairness</strong></div>
-                                <ul>
-                                    <li>Definition and measurement of item consumer unfairness on recommendations.</li>
-                                    <li>Application of mitigation techniques based on pre-, in-, and post-processing.</li>
-                                    <li>Comparison of mitigation techniques based on fairness and recommendation utility trade-offs.</li>
-                                    <li>Comparison of mitigation techniques on beyond-utility metrics (e.g., coverage, diversity, novelty).</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="time"><strong>15 mins</strong></th>
-                            <td><strong>Open Issues and Research Challenges</strong></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="time"><strong>15 mins</strong></th>
-                            <td><strong>Questions and Discussion</strong></td>
+                            <th scope="row" class="time"><strong>13:20 13:30</strong></th>
+                            <td><strong>Challenges, Final Remarks, and Discussion</strong></td>
                         </tr>
                         </tbody>
                     </table>
@@ -311,11 +312,11 @@
             <div class="section-header">
                 <h2>Presenters</h2>
 
-                <p style="text-align: center;"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQH12B2k5FNOPg/profile-displayphoto-shrink_200_200/0?e=1610582400&v=beta&t=_5w50uZ6yLEIcaAJBNSsOBLsGqAebfu5vR2XeF0RkQQ" class="img-rounded" alt="Ludovico Boratto" style="width:200px;"></p>
+                <p style="text-align: center;"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1unjC10AAAAJ&citpid=8" class="img-rounded" alt="Ludovico Boratto" style="width:200px;"></p>
                 <p style="text-align: center;"><strong><a href="https://www.ludovicoboratto.com/" target="_blank">Ludovico Boratto</a> </br>EURECAT - Centre Tecn&ograve;logic de Catalunya (Spain)</strong></p>
                 <p>Ludovico Boratto is senior research scientist in at EURECAT. His research focuses on recommender systems and on their impact on stakeholders. His research has been published in top-tier conferences and journals. He is editor of the book "Group Recommender Systems: An Introduction" (Springer). He is editorial board member of the "Information Processing &amp; Management" journal (Elsevier) and guest editor of other special issues. He is regularly PC member of the main Data Mining conferences. In 2012, he got a Ph.D. at the University of Cagliari, where he was research assistant until May 2016.</p>
                 <br/><br/>
-                <p style="text-align: center;"><img src="https://media-exp1.licdn.com/dms/image/C4D03AQET4nEbq071jg/profile-displayphoto-shrink_200_200/0?e=1610582400&v=beta&t=AlBtrzr2bZREY-F4zeviitDg-b9gzqFMV4yUjseR50k" class="img-rounded" alt="Mirko Marras" style="width:200px;"></p>
+                <p style="text-align: center;"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=JZhqKBIAAAAJ&citpid=14" class="img-rounded" alt="Mirko Marras" style="width:200px;"></p>
                 <p style="text-align: center;"><strong><a href="https://www.mirkomarras.com/" target="_blank">Mirko Marras</a> </br>École Polytechnique Fédérale de Lausanne EPFL (Switzerland)</strong></p>
                 <p>Mirko Marras is a Postdoctoral Researcher at the École Polytechnique Fédérale de Lausanne EPFL. His research focuses on data mining and machine learning for recommender systems, with attention to bias issues, mainly under online education settings. He authored papers in top-tier journals, such as Pattern Recognition Letters and Computers Human Behavior. He gave talks and demos at international conferences and workshops, e.g., TheWebConf2018, ECIR2019, and INTERSPEECH2019. He is PC member of major conferences, e.g., ACL, AIED, EDM, ECML-PKDD, EMNLP, ITICSE, ICALT, UMAP. He co-chaired the BIAS2020 workshop at ECIR2020 and gave a tutorial on Bias in Recommender Systems at UMAP2020 and ICDM2020. In 2020, he received a Doctoral Degree from University of Cagliari.</p>
             </div>
@@ -324,9 +325,28 @@
     </section>
 
     <!--==========================
+    Registration Section
+    ============================-->
+    <section id="attending" class="wow fadeInUp section-with-bg">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                  <h2>Registration</h2>
+                  <p>
+                      The registration to the tutorial is managed by the WSDM Main Conference through the <a href="http://www.wsdm-conference.org/2021/registration.php" target="_blank">Registration Portal</a>.
+                  </p>
+                  <p>
+                    You need to opt for a one-day registration fee and then select this workshop along the registration process. If you need any other information, please do not hesitate to contact us.
+                  </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
     Contacts Section
     ============================-->
-    <section id="contacts" class="wow fadeInUp section-with-bg">
+    <section id="contacts" class="wow fadeInUp">
 
         <div class="container-fluid">
             <div class="section-header">
@@ -340,7 +360,7 @@
     <!--==========================
     Editions Section
     ============================-->
-    <section id="editions" class="wow fadeInUp">
+    <section id="editions" class="wow fadeInUp section-with-bg">
 
         <div class="container-fluid">
             <div class="section-header">
