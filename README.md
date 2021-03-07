@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ## Getting Started
 
-#### Notebook 1: Setup and run of a recommender system [[Colab link]](https://colab.research.google.com/github/biasinrecsys/wasdm2021/blob/master/notebooks/model_setup.ipynb)
+#### Notebook 1: Setup and run of a recommender system [[Colab link]](https://colab.research.google.com/github/biasinrecsys/wsdm2021/blob/master/notebooks/model_setup.ipynb)
 In this notebook, we become familiar with the Python recommendation toolbox, in the simplest 
 possible way. First, we setup the working environment in GDrive. Then, we go through the 
 experimental pipeline, by:
