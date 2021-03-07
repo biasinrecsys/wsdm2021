@@ -1,0 +1,8 @@
+jupyter
+jupyterlab
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+tensorflow-gpu==2.0
