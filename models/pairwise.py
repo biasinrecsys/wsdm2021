@@ -35,7 +35,7 @@ class PairWise(Model):
     def train(self, no_epochs=100, batches=1024, lr=0.001, no_factors=10, no_negatives=10, gen_mode='pair', val_split=0.01, val_interval=4):
 
         print('Generating training instances', 'of type', gen_mode)
-        x, y = generator(self.observed_relevance, self.categories, self.no_categories, self.category_per_item, self.categories_per_user, no_negatives=no_negatives, gen_mode=gen_mode)
+        x, y = generator(self.observed_relevance, self.categories, self.no_categories, self.category_per_item, self.categories_per_user, no_negatives, gen_mode, self.item_popularity)
 
         print('Performing training -', 'Epochs', no_epochs, 'Batch Size', batches, 'Learning Rate', lr, 'Factors', no_factors, 'Negatives', no_negatives, 'Mode', gen_mode)
         self.model = self.__get_model()
